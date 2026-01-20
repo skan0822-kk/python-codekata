@@ -3,13 +3,8 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120820
 # 알고리즘: 기초
 # 작성자: 권남훈
-# 작성일: 2026. 01. 19. 09:58:45
+# 작성일: 2026. 01. 20. 11:24:03
 
-#include <stdio.h>
-#include <stdbool.h>
-#include <stdlib.h>
-
-int solution(int age) {
-    int answer = 2022 - age + 1;
-    return answer;
-}
+def solution(age):
+    answer = 2022 - age + 1
+    return answer
